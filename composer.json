@@ -1,0 +1,14 @@
+{
+  "name": "silvaadrian/biblioteca-classificadora",
+  "description": "Biblioteca PHP que sugere categorias com base em um histórico, no exemplo utilizado foi sobre despesas.",
+  "type": "library",
+  "require": {
+    "php": "^8.3",
+    "ext-iconv": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BibliotecaClassificadora\\": "src/"
+    }
+  }
+}
